@@ -56,8 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+            <state relative-caret-position="103">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -213,7 +213,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lkq-crm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -258,7 +258,7 @@
       <workItem from="1585461925720" duration="2668000" />
       <workItem from="1586829453785" duration="642000" />
       <workItem from="1586834485432" duration="3391000" />
-      <workItem from="1586851456485" duration="746000" />
+      <workItem from="1586851456485" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="第三次">
       <created>1586834665287</created>
@@ -316,11 +316,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586852085075</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="第9次">
+      <created>1586852444756</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1586852444756</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12923000" />
+    <option name="totallyTimeSpent" value="13192000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -333,6 +340,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1476" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3674189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -429,7 +437,8 @@
     <MESSAGE value="第6次" />
     <MESSAGE value="第7次" />
     <MESSAGE value="第8次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第8次" />
+    <MESSAGE value="第9次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第9次" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wwt/wwt_crm/mapper/CustomerMapper.java">
@@ -573,8 +582,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
+        <state relative-caret-position="103">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
         </state>
       </provider>
     </entry>
