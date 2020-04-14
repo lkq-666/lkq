@@ -68,10 +68,12 @@ public class BusinessController {
     }
     @PutMapping("/")
     public Map update(Business business){
+        System.out.println("lkq");
         Map<String,Object> map=new HashMap<>();
         business.setUpdateTime(StringUtils.getNowTime());
         map.put("state",businessService.updateById(business));
         return map;
     }
+
 
 }
