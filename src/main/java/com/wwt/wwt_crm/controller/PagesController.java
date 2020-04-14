@@ -21,8 +21,6 @@ public class PagesController {
     @Autowired
     private CustomerService customerService;
     @Autowired
-    private OrdersService ordersService;
-    @Autowired
     private EmployeeService employeeService;
     @Autowired
     private BusinessService businessService;
@@ -37,8 +35,6 @@ public class PagesController {
         model.addAttribute("zhenshi",customerService.count(customerQueryWrapper.eq("is_orders",1).eq("is_del",0)));
         QueryWrapper<Customer> customerQueryWrapper2=new QueryWrapper<>();
         model.addAttribute("buzhenshi",customerService.count(customerQueryWrapper2.eq("is_orders",0).eq("is_del",0)));
-        QueryWrapper<Orders> ordersQueryWrapper=new QueryWrapper<>();
-        model.addAttribute("orders",ordersService.count(ordersQueryWrapper.eq("is_del",0)));
         QueryWrapper<Employee> employeeQueryWrapper=new QueryWrapper<>();
         model.addAttribute("emp",employeeService.count(employeeQueryWrapper.eq("is_del",0)));
         QueryWrapper<Business> businessQueryWrapper=new QueryWrapper<>();
