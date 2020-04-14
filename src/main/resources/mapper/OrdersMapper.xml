@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wwt.wwt_crm.mapper.OrdersMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="OrdersMap" type="com.wwt.wwt_crm.entity.Orders">
+        <id column="orders_id" property="ordersId" />
+        <result column="business_id" property="businessId" />
+        <result column="total_price" property="totalPrice" />
+        <result column="customer_id" property="customerId" />
+        <result column="create_time" property="createTime" />
+        <association property="business" javaType="com.wwt.wwt_crm.entity.Business" resultMap="BusinessMap"/>
+        <association property="customer" javaType="com.wwt.wwt_crm.entity.Customer" resultMap="CustomerMap"/>
+    </resultMap>
+    <resultMap id="BusinessMap" type="com.wwt.wwt_crm.entity.Business">
+        <id column="business_id" property="businessId" />
+        <result column="busubess_name" property="busubessName" />
+        <result column="head" property="head" />
+        <result column="telphone" property="telphone" />
+        <result column="description" property="description" />
+    </resultMap>
+    <resultMap id="CustomerMap" type="com.wwt.wwt_crm.entity.Customer">
+        <id column="cust_id" property="custId" />
+        <result column="cust_name" property="custName" />
+        <result column="sex" property="sex" />
+        <result column="telphone" property="telphone" />
+        <result column="company" property="company" />
+        <result column="address" property="address" />
+        <result column="emp_id" property="empId" />
+        <result column="is_orders" property="isOrders" />
+        <association property="employee" javaType="com.wwt.wwt_crm.entity.Employee" resultMap="EmployeeMap"/>
+    </resultMap>
+    <resultMap id="EmployeeMap" type="com.wwt.wwt_crm.entity.Employee">
+        <id column="emp_id" property="empId" />
+        <result column="emp_name" property="empName" />
+        <result column="pwd" property="pwd" />
+        <result column="salt" property="salt" />
+        <result column="age" property="age" />
+        <result column="sex" property="sex" />
+        <result column="phone" property="phone" />
+        <result column="address" property="address" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        select b.busubess_name,os.*,c.cust_name,c.cust_id  from orders os
+            LEFT JOIN business b ON os.business_id=b.business_id
+            LEFT JOIN customer c ON c.cust_id=os.customer_id
+            LEFT JOIN employee e ON e.emp_id=c.emp_id
+    </sql>
+    <select id="selectOrders" resultMap="OrdersMap" parameterType="Integer">
+        <include refid="Base_Column_List"></include>
+        WHERE e.emp_id=#{empId} and os.is_del=0
+    </select>
+</mapper>
