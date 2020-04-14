@@ -10,6 +10,7 @@ class WwtCrmApplicationTests {
     void contextLoads() {
         System.out.println("lkq");
         System.out.println("凌康乾");
+        System.out.println("凌康乾");
     }
 
 }
