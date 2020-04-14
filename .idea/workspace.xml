@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38cf8ffe-13bd-422e-bd3b-e0b877de1fec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -57,12 +56,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-              <folding>
-                <element signature="e#205#206#0" expanded="true" />
-                <element signature="e#241#242#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -329,7 +324,7 @@
       <workItem from="1585446627085" duration="5476000" />
       <workItem from="1585461925720" duration="2668000" />
       <workItem from="1586829453785" duration="642000" />
-      <workItem from="1586834485432" duration="1024000" />
+      <workItem from="1586834485432" duration="1903000" />
     </task>
     <task id="LOCAL-00001" summary="第三次">
       <created>1586834665287</created>
@@ -338,11 +333,18 @@
       <option name="project" value="LOCAL" />
       <updated>1586834665287</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="第四次">
+      <created>1586835529222</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586835529222</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9810000" />
+    <option name="totallyTimeSpent" value="10689000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,7 +359,7 @@
     <frame x="-7" y="-7" width="1476" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3674189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3674189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,7 +381,7 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32841823" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -433,7 +435,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="第三次" />
-    <option name="LAST_COMMIT_MESSAGE" value="第三次" />
+    <MESSAGE value="第四次" />
+    <option name="LAST_COMMIT_MESSAGE" value="第四次" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wwt/wwt_crm/mapper/CustomerMapper.java">
@@ -577,12 +580,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/wwt/wwt_crm/WwtCrmApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#241#242#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="300">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
