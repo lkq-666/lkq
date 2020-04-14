@@ -3,7 +3,6 @@ package com.wwt.wwt_crm.service.impl;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.sun.corba.se.spi.orbutil.threadpool.WorkQueue;
 import com.wwt.wwt_crm.entity.DeptRole;
 import com.wwt.wwt_crm.entity.Role;
 import com.wwt.wwt_crm.mapper.DeptRoleMapper;
@@ -14,8 +13,6 @@ import com.wwt.wwt_crm.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
 
 /**
  * <p>

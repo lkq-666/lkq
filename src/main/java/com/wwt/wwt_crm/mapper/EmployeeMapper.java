@@ -6,8 +6,6 @@ import com.wwt.wwt_crm.entity.Employee;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.springframework.stereotype.Repository;
 
-import java.util.List;
-
 /**
  * <p>
  *  Mapper 接口
