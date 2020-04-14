@@ -9,6 +9,7 @@ class WwtCrmApplicationTests {
     @Test
     void contextLoads() {
         System.out.println("lkq");
+        System.out.println("lkq");
     }
 
 }
